@@ -1,0 +1,16 @@
+{
+  "name": "RentSplit — Gastos del depa",
+  "short_name": "RentSplit",
+  "description": "Administra la renta y servicios del departamento entre roomies, mes con mes.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10261F",
+  "theme_color": "#10261F",
+  "lang": "es",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
