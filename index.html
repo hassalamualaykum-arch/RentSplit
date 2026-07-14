@@ -204,10 +204,14 @@ ul.svc .del{width:auto;background:none;color:var(--danger);font-size:19px;paddin
 <div class="toast" id="toast"></div>
 
 <script>
-/* ==== CONFIG SUPABASE — pega tus datos ==== */
-const SUPABASE_URL = "PEGA_AQUI_TU_PROJECT_URL";
-const SUPABASE_KEY = "PEGA_AQUI_TU_ANON_PUBLIC_KEY";
-/* ========================================== */
+/* ============================================================
+   CONFIGURACIÓN DE SUPABASE — PEGA AQUÍ TUS DATOS
+   Los encuentras en: supabase.com → tu proyecto →
+   Settings (engranaje) → API
+   ============================================================ */
+const SUPABASE_URL = "https://jgeotxpbeeoavarxozhw.supabase.co";      // ej. https://abcdefgh.supabase.co
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpnZW90eHBiZWVvYXZhcnhvemh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMxODE3OTcsImV4cCI6MjA5ODc1Nzc5N30.scKztPQzAQ83Gjl3Voju4ZOvLk-okJoz_VnuT65rl2Y";  // la llave larga "anon public"
+/* ============================================================ */
 
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const $ = id => document.getElementById(id);
